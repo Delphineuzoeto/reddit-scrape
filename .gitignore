@@ -1,0 +1,29 @@
+# Virtual environment - never push this
+redditvenv/
+
+# Database - too large, regenerate locally
+beauty_in_black.db
+
+# Raw data - too large for github
+data/raw/
+
+# Test files
+test/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+
+# CSV files - regenerate from scraper
+data/clean/
+
+# OS files
+.DS_Store
+
+# VS Code
+.vscode/
+
+# Environment variables
+.env
+EOF
